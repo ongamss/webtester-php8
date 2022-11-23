@@ -45,6 +45,31 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///var/www/html/webtester",
+                                        "path": "/var/www/html/webtester",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/var/www/html/webtester"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///var/www/html/webtester/var/www/html/webtester",
+                                        "path": "/var/www/html/webtester/var/www/html/webtester",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/var/www/html/webtester/var/www/html/webtester"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.openRecent",
                                     "label": "&&More..."
                                 },
@@ -88,6 +113,21 @@
                         "id": "saveAll",
                         "label": "Save A&&ll",
                         "enabled": false
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "submenuitem.MenubarShare",
+                        "label": "Share",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "workbench.profiles.actions.exportProfile",
+                                    "label": "Export Settings Profile (Default)..."
+                                }
+                            ]
+                        }
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -170,6 +210,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -443,6 +487,28 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "editor.action.toggleMinimap",
+                                    "label": "&&Minimap"
+                                },
+                                {
+                                    "id": "breadcrumbs.toggle",
+                                    "label": "&&Breadcrumbs",
+                                    "checked": true
+                                },
+                                {
+                                    "id": "editor.action.toggleRenderWhitespace",
+                                    "label": "&&Render Whitespace",
+                                    "checked": true
+                                },
+                                {
+                                    "id": "editor.action.toggleRenderControlCharacter",
+                                    "label": "Render &&Control Characters",
+                                    "checked": true
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.zoomIn",
                                     "label": "&&Zoom In"
                                 },
@@ -574,23 +640,8 @@
                         "enabled": false
                     },
                     {
-                        "id": "editor.action.toggleMinimap",
-                        "label": "&&Minimap"
-                    },
-                    {
-                        "id": "breadcrumbs.toggle",
-                        "label": "&&Breadcrumbs",
-                        "checked": true
-                    },
-                    {
-                        "id": "editor.action.toggleRenderWhitespace",
-                        "label": "&&Render Whitespace",
-                        "checked": true
-                    },
-                    {
-                        "id": "editor.action.toggleRenderControlCharacter",
-                        "label": "Render &&Control Characters",
-                        "checked": true
+                        "id": "editor.action.toggleStickyScroll",
+                        "label": "&&Sticky Scroll"
                     }
                 ]
             },
@@ -750,23 +801,28 @@
                     },
                     {
                         "id": "editor.action.revealDefinition",
-                        "label": "Go to &&Definition"
+                        "label": "Go to &&Definition",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.revealDeclaration",
-                        "label": "Go to &&Declaration"
+                        "label": "Go to &&Declaration",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToTypeDefinition",
-                        "label": "Go to &&Type Definition"
+                        "label": "Go to &&Type Definition",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToImplementation",
-                        "label": "Go to &&Implementations"
+                        "label": "Go to &&Implementations",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToReferences",
-                        "label": "Go to &&References"
+                        "label": "Go to &&References",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -994,7 +1050,7 @@
                     },
                     {
                         "id": "update.showCurrentReleaseNotes",
-                        "label": "&&Release Notes"
+                        "label": "Show &&Release Notes"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1118,6 +1174,11 @@
             "workbench.action.closeActiveEditor": {
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
+            },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
@@ -1504,15 +1565,25 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/var/www/html/webtester/Backups/1663634764873",
+            "folder": "file:///var/www/html/webtester",
+            "backupPath": "/var/www/html/webtester/Backups/7db3a7864e5846de087478db9acdc26a",
             "uiState": {
                 "mode": 1,
-                "x": 455,
-                "y": 169,
+                "x": 293,
+                "y": 156,
                 "width": 1073,
-                "height": 831
+                "height": 714
             }
         },
         "openedWindows": []
+    },
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///var/www/html/webtester"
+            }
+        ],
+        "emptyWindows": []
     }
 }

@@ -1,0 +1,4 @@
+2022-11-23 18:59:51.951 [info] update#setState idle
+2022-11-23 18:59:53.011 [info] Starting extension host with pid 32687 (fork() took 7 ms).
+2022-11-23 18:59:59.728 [info] Waiting for extension host with pid 32687 to exit.
+2022-11-23 18:59:59.732 [info] Extension host with pid 32687 exited with code: 0, signal: null.

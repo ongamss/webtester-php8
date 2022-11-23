@@ -1,0 +1,180 @@
+[2022-11-23 18:29:08.315] [main] [trace] [File Watcher (node.js)] Request to start watching: /var/www/html/webtester/User (excludes: <none>, includes: <all>),/var/www/html/webtester/User/settings.json (excludes: <none>, includes: <all>)
+[2022-11-23 18:29:08.315] [main] [debug] Starting VS Code
+[2022-11-23 18:29:08.315] [main] [debug] from: /usr/share/code/resources/app
+[2022-11-23 18:29:08.315] [main] [debug] args: {"_":[],"diff":false,"merge":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"user-data-dir":"/var/www/html/webtester/","help":false,"list-extensions":false,"show-versions":false,"pre-release":false,"version":false,"verbose":true,"status":false,"prof-startup":false,"no-cached-data":false,"prof-v8-extensions":false,"disable-extensions":false,"disable-gpu":false,"ms-enable-electron-run-as-node":false,"telemetry":false,"debugRenderer":false,"enable-smoke-test-driver":false,"logExtensionHostCommunication":false,"skip-release-notes":false,"skip-welcome":false,"disable-telemetry":false,"disable-updates":false,"disable-keytar":false,"disable-workspace-trust":false,"disable-crash-reporter":false,"crash-reporter-id":"bfb78956-95ff-4236-886e-6687c5202726","skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"file-write":false,"file-chmod":false,"force":false,"do-not-sync":false,"trace":false,"force-user-env":false,"force-disable-user-env":false,"open-devtools":false,"__enable-file-policy":false,"no-proxy-server":false,"no-sandbox":false,"nolazy":false,"force-renderer-accessibility":false,"ignore-certificate-errors":false,"allow-insecure-localhost":false,"disable-dev-shm-usage":false,"logsPath":"/var/www/html/webtester/logs/20221123T182908"}
+[2022-11-23 18:29:08.315] [main] [trace] Resolving machine identifier...
+[2022-11-23 18:29:08.315] [main] [trace] Resolved machine identifier: 34aae2e39e5a2afe5bd8973a6b2f01c168a0b02bbae76051ca9d22dce98e48ce
+[2022-11-23 18:29:08.315] [main] [trace] Main->SharedProcess#connect
+[2022-11-23 18:29:08.316] [main] [trace] [File Watcher (node.js)] Started watching: '/var/www/html/webtester/User'
+[2022-11-23 18:29:08.316] [main] [trace] [File Watcher (node.js)] Started watching: '/var/www/html/webtester/User/settings.json'
+[2022-11-23 18:29:08.319] [main] [trace] StorageMainService: creating application storage
+[2022-11-23 18:29:08.322] [main] [trace] lifecycle (main): phase changed (value: 2)
+[2022-11-23 18:29:08.322] [main] [trace] windowsManager#open
+[2022-11-23 18:29:08.323] [main] [trace] windowsManager#open pathsToOpen [{"workspace":{"id":"197e1c1d8c9bed540223c892ea0eabd7","uri":{"$mid":1,"fsPath":"/var/www/html/webtester/var/www/html/webtester","path":"/var/www/html/webtester/var/www/html/webtester","scheme":"file"}},"type":2,"exists":true}]
+[2022-11-23 18:29:08.324] [main] [trace] windowsManager#doOpenFolderOrWorkspace {"folderOrWorkspace":{"workspace":{"id":"197e1c1d8c9bed540223c892ea0eabd7","uri":{"$mid":1,"fsPath":"/var/www/html/webtester/var/www/html/webtester","external":"file:///var/www/html/webtester/var/www/html/webtester","path":"/var/www/html/webtester/var/www/html/webtester","scheme":"file"}},"type":2,"exists":true}}
+[2022-11-23 18:29:08.324] [main] [trace] IPC Object URL: Registered new channel vscode:5a87af58-f5ed-4c9b-aa37-95216311f3af.
+[2022-11-23 18:29:08.325] [main] [trace] window#validateWindowState: validating window state on 1 display(s) {"mode":1,"x":865,"y":145,"width":1073,"height":714}
+[2022-11-23 18:29:08.325] [main] [trace] window#validateWindowState: 1 monitor working area {"x":0,"y":28,"width":1366,"height":740}
+[2022-11-23 18:29:08.325] [main] [trace] window#ctor: using window state {"mode":1,"x":865,"y":145,"width":1073,"height":714}
+[2022-11-23 18:29:08.363] [main] [trace] window#load: attempt to load window (id: 1)
+[2022-11-23 18:29:08.377] [main] [trace] StorageMainService: creating workspace storage (197e1c1d8c9bed540223c892ea0eabd7)
+[2022-11-23 18:29:08.377] [main] [trace] windowsManager#open used window count 1 (workspacesToOpen: 0, foldersToOpen: 1, emptyToRestore: 0, emptyToOpen: 0)
+[2022-11-23 18:29:08.378] [main] [trace] lifecycle (main): phase changed (value: 3)
+[2022-11-23 18:29:08.378] [main] [info] update#setState idle
+[2022-11-23 18:29:08.379] [main] [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+[2022-11-23 18:29:08.477] [main] [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+[2022-11-23 18:29:08.832] [main] [trace] [Disk FileSystemProvider]: atomic read operation started (/var/www/html/webtester/User/settings.json)
+[2022-11-23 18:29:08.832] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - request to acquire resource lock (/var/www/html/webtester/User/settings.json)
+[2022-11-23 18:29:08.832] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - new resource lock created (/var/www/html/webtester/User/settings.json)
+[2022-11-23 18:29:08.833] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock dispose() (/var/www/html/webtester/User/settings.json)
+[2022-11-23 18:29:08.833] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock removed from resource-lock map (/var/www/html/webtester/User/settings.json)
+[2022-11-23 18:29:08.833] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock barrier open() (/var/www/html/webtester/User/settings.json)
+[2022-11-23 18:29:09.072] [main] [trace] window#load: window reported ready (id: 1)
+[2022-11-23 18:29:09.075] [main] [trace] [Disk FileSystemProvider]: atomic read operation started (/var/www/html/webtester/User/keybindings.json)
+[2022-11-23 18:29:09.075] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - request to acquire resource lock (/var/www/html/webtester/User/keybindings.json)
+[2022-11-23 18:29:09.075] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - new resource lock created (/var/www/html/webtester/User/keybindings.json)
+[2022-11-23 18:29:09.076] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock dispose() (/var/www/html/webtester/User/keybindings.json)
+[2022-11-23 18:29:09.076] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock removed from resource-lock map (/var/www/html/webtester/User/keybindings.json)
+[2022-11-23 18:29:09.076] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock barrier open() (/var/www/html/webtester/User/keybindings.json)
+[2022-11-23 18:29:09.131] [main] [trace] SharedProcess: on vscode:createSharedProcessMessageChannel
+[2022-11-23 18:29:09.132] [main] [trace] IPC Object URL: Registered new channel vscode:ecd61748-8eef-4253-9353-5b220331a73c.
+[2022-11-23 18:29:09.160] [main] [trace] menubarService#updateMenubar 1
+[2022-11-23 18:29:09.207] [main] [trace] menubarService#updateMenubar 1
+[2022-11-23 18:29:09.232] [main] [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+[2022-11-23 18:29:09.269] [main] [info] Starting extension host with pid 27433 (fork() took 9 ms).
+[2022-11-23 18:29:09.321] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - request to acquire resource lock (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:09.321] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - new resource lock created (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:09.322] [main] [trace] [Disk FileSystemProvider]: open() - storing lock for handle 98 (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:09.324] [main] [trace] [Disk FileSystemProvider]: close() - resource lock removed from handle-lock map 98
+[2022-11-23 18:29:09.324] [main] [trace] [Disk FileSystemProvider]: close() - disposing lock for handle 98
+[2022-11-23 18:29:09.324] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock dispose() (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:09.324] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock removed from resource-lock map (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:09.324] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock barrier open() (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:09.352] [main] [trace] SharedProcess: IPC ready
+[2022-11-23 18:29:09.364] [main] [trace] Main->SharedProcess#connect: connection established
+[2022-11-23 18:29:09.370] [main] [trace] [Disk FileSystemProvider]: atomic read operation started (/var/www/html/webtester/User/settings.json)
+[2022-11-23 18:29:09.370] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - request to acquire resource lock (/var/www/html/webtester/User/settings.json)
+[2022-11-23 18:29:09.370] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - new resource lock created (/var/www/html/webtester/User/settings.json)
+[2022-11-23 18:29:09.371] [main] [trace] [File Watcher (node.js)] Request to start watching: /var/www/html/webtester/User (excludes: <none>, includes: <all>),/var/www/html/webtester/User/settings.json (excludes: <none>, includes: <all>)
+[2022-11-23 18:29:09.372] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock dispose() (/var/www/html/webtester/User/settings.json)
+[2022-11-23 18:29:09.372] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock removed from resource-lock map (/var/www/html/webtester/User/settings.json)
+[2022-11-23 18:29:09.372] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock barrier open() (/var/www/html/webtester/User/settings.json)
+[2022-11-23 18:29:09.373] [main] [trace] [File Watcher (node.js)] Started watching: '/var/www/html/webtester/User'
+[2022-11-23 18:29:09.373] [main] [trace] [File Watcher (node.js)] Started watching: '/var/www/html/webtester/User/settings.json'
+[2022-11-23 18:29:09.401] [main] [trace] SharedProcess: Overall ready
+[2022-11-23 18:29:09.578] [main] [trace] RequestService#request (node) - begin https://update.code.visualstudio.com/api/update/linux-x64/stable/e4503b30fc78200f846c62cf8091b76ff5547662
+[2022-11-23 18:29:09.578] [main] [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+[2022-11-23 18:29:09.688] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - request to acquire resource lock (/var/www/html/webtester/logs/20221123T182908/output_1_20221123T182908/tasks.log)
+[2022-11-23 18:29:09.689] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - new resource lock created (/var/www/html/webtester/logs/20221123T182908/output_1_20221123T182908/tasks.log)
+[2022-11-23 18:29:09.689] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - request to acquire resource lock (/var/www/html/webtester/logs/20221123T182908/output_1_20221123T182908/extensions.log)
+[2022-11-23 18:29:09.689] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - new resource lock created (/var/www/html/webtester/logs/20221123T182908/output_1_20221123T182908/extensions.log)
+[2022-11-23 18:29:09.689] [main] [trace] [Disk FileSystemProvider]: open() - storing lock for handle 107 (/var/www/html/webtester/logs/20221123T182908/output_1_20221123T182908/tasks.log)
+[2022-11-23 18:29:09.690] [main] [trace] [Disk FileSystemProvider]: open() - storing lock for handle 108 (/var/www/html/webtester/logs/20221123T182908/output_1_20221123T182908/extensions.log)
+[2022-11-23 18:29:09.695] [main] [trace] [Disk FileSystemProvider]: close() - resource lock removed from handle-lock map 107
+[2022-11-23 18:29:09.695] [main] [trace] [Disk FileSystemProvider]: close() - disposing lock for handle 107
+[2022-11-23 18:29:09.695] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock dispose() (/var/www/html/webtester/logs/20221123T182908/output_1_20221123T182908/tasks.log)
+[2022-11-23 18:29:09.695] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock removed from resource-lock map (/var/www/html/webtester/logs/20221123T182908/output_1_20221123T182908/tasks.log)
+[2022-11-23 18:29:09.695] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock barrier open() (/var/www/html/webtester/logs/20221123T182908/output_1_20221123T182908/tasks.log)
+[2022-11-23 18:29:09.695] [main] [trace] [Disk FileSystemProvider]: close() - resource lock removed from handle-lock map 108
+[2022-11-23 18:29:09.696] [main] [trace] [Disk FileSystemProvider]: close() - disposing lock for handle 108
+[2022-11-23 18:29:09.696] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock dispose() (/var/www/html/webtester/logs/20221123T182908/output_1_20221123T182908/extensions.log)
+[2022-11-23 18:29:09.696] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock removed from resource-lock map (/var/www/html/webtester/logs/20221123T182908/output_1_20221123T182908/extensions.log)
+[2022-11-23 18:29:09.696] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock barrier open() (/var/www/html/webtester/logs/20221123T182908/output_1_20221123T182908/extensions.log)
+[2022-11-23 18:29:09.699] [main] [trace] [Disk FileSystemProvider]: atomic read operation started (/var/www/html/webtester/User/settings.json)
+[2022-11-23 18:29:09.699] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - request to acquire resource lock (/var/www/html/webtester/User/settings.json)
+[2022-11-23 18:29:09.699] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - new resource lock created (/var/www/html/webtester/User/settings.json)
+[2022-11-23 18:29:09.700] [main] [trace] [Disk FileSystemProvider]: atomic read operation started (/var/www/html/webtester/User/tasks.json)
+[2022-11-23 18:29:09.700] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - request to acquire resource lock (/var/www/html/webtester/User/tasks.json)
+[2022-11-23 18:29:09.700] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - new resource lock created (/var/www/html/webtester/User/tasks.json)
+[2022-11-23 18:29:09.701] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock dispose() (/var/www/html/webtester/User/tasks.json)
+[2022-11-23 18:29:09.701] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock removed from resource-lock map (/var/www/html/webtester/User/tasks.json)
+[2022-11-23 18:29:09.701] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock barrier open() (/var/www/html/webtester/User/tasks.json)
+[2022-11-23 18:29:09.703] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock dispose() (/var/www/html/webtester/User/settings.json)
+[2022-11-23 18:29:09.703] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock removed from resource-lock map (/var/www/html/webtester/User/settings.json)
+[2022-11-23 18:29:09.703] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock barrier open() (/var/www/html/webtester/User/settings.json)
+[2022-11-23 18:29:09.843] [main] [trace] menubarService#updateMenubar 1
+[2022-11-23 18:29:09.948] [main] [trace] menubarService#updateMenubar 1
+[2022-11-23 18:29:09.985] [main] [trace] SharedProcess: onWorkerConnection {"process":{"moduleId":"vs/platform/files/node/watcher/watcherMain","type":"fileWatcher"},"reply":{"windowId":1,"channel":"vscode:createSharedProcessWorkerMessageChannelResult","nonce":"6d35aa4a-dfcf-498b-966c-fd7b5486dc02"}}
+[2022-11-23 18:29:10.049] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - request to acquire resource lock (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:10.049] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - new resource lock created (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:10.049] [main] [trace] [Disk FileSystemProvider]: open() - storing lock for handle 109 (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:10.052] [main] [trace] [Disk FileSystemProvider]: close() - resource lock removed from handle-lock map 109
+[2022-11-23 18:29:10.052] [main] [trace] [Disk FileSystemProvider]: close() - disposing lock for handle 109
+[2022-11-23 18:29:10.052] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock dispose() (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:10.052] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock removed from resource-lock map (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:10.052] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock barrier open() (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:10.276] [main] [trace] RequestService#request (node) - success https://update.code.visualstudio.com/api/update/linux-x64/stable/e4503b30fc78200f846c62cf8091b76ff5547662
+[2022-11-23 18:29:10.492] [main] [trace] menubarService#updateMenubar 1
+[2022-11-23 18:29:10.596] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - request to acquire resource lock (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:10.596] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - new resource lock created (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:10.597] [main] [trace] [Disk FileSystemProvider]: open() - storing lock for handle 109 (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:10.600] [main] [trace] [Disk FileSystemProvider]: close() - resource lock removed from handle-lock map 109
+[2022-11-23 18:29:10.601] [main] [trace] [Disk FileSystemProvider]: close() - disposing lock for handle 109
+[2022-11-23 18:29:10.601] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock dispose() (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:10.601] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock removed from resource-lock map (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:10.601] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock barrier open() (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:11.649] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - request to acquire resource lock (/var/www/html/webtester/CachedConfigurations/defaults/configurationDefaultsOverrides/configuration.json)
+[2022-11-23 18:29:11.649] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - new resource lock created (/var/www/html/webtester/CachedConfigurations/defaults/configurationDefaultsOverrides/configuration.json)
+[2022-11-23 18:29:11.649] [main] [trace] [Disk FileSystemProvider]: open() - storing lock for handle 109 (/var/www/html/webtester/CachedConfigurations/defaults/configurationDefaultsOverrides/configuration.json)
+[2022-11-23 18:29:11.652] [main] [trace] [Disk FileSystemProvider]: close() - resource lock removed from handle-lock map 109
+[2022-11-23 18:29:11.652] [main] [trace] [Disk FileSystemProvider]: close() - disposing lock for handle 109
+[2022-11-23 18:29:11.652] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock dispose() (/var/www/html/webtester/CachedConfigurations/defaults/configurationDefaultsOverrides/configuration.json)
+[2022-11-23 18:29:11.652] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock removed from resource-lock map (/var/www/html/webtester/CachedConfigurations/defaults/configurationDefaultsOverrides/configuration.json)
+[2022-11-23 18:29:11.652] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock barrier open() (/var/www/html/webtester/CachedConfigurations/defaults/configurationDefaultsOverrides/configuration.json)
+[2022-11-23 18:29:13.170] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - request to acquire resource lock (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:13.170] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - new resource lock created (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:13.170] [main] [trace] [Disk FileSystemProvider]: open() - storing lock for handle 109 (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:13.173] [main] [trace] [Disk FileSystemProvider]: close() - resource lock removed from handle-lock map 109
+[2022-11-23 18:29:13.173] [main] [trace] [Disk FileSystemProvider]: close() - disposing lock for handle 109
+[2022-11-23 18:29:13.173] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock dispose() (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:13.173] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock removed from resource-lock map (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:13.173] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock barrier open() (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:29:38.397] [main] [trace] update#checkForUpdates, state =  idle
+[2022-11-23 18:29:38.398] [main] [info] update#setState checking for updates
+[2022-11-23 18:29:38.399] [main] [trace] RequestService#request (node) - begin https://update.code.visualstudio.com/api/update/linux-x64/stable/e4503b30fc78200f846c62cf8091b76ff5547662
+[2022-11-23 18:29:38.399] [main] [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+[2022-11-23 18:29:38.405] [main] [trace] RequestService#request (node) - success https://update.code.visualstudio.com/api/update/linux-x64/stable/e4503b30fc78200f846c62cf8091b76ff5547662
+[2022-11-23 18:29:38.406] [main] [info] update#setState available for download
+[2022-11-23 18:29:39.399] [main] [trace] menubarService#updateMenubar 1
+[2022-11-23 18:30:07.810] [main] [trace] menubarService#updateMenubar 1
+[2022-11-23 18:30:11.944] [main] [trace] menubarService#updateMenubar 1
+[2022-11-23 18:30:12.049] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - request to acquire resource lock (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:30:12.049] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - new resource lock created (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:30:12.050] [main] [trace] [Disk FileSystemProvider]: open() - storing lock for handle 109 (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:30:12.054] [main] [trace] [Disk FileSystemProvider]: close() - resource lock removed from handle-lock map 109
+[2022-11-23 18:30:12.054] [main] [trace] [Disk FileSystemProvider]: close() - disposing lock for handle 109
+[2022-11-23 18:30:12.054] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock dispose() (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:30:12.054] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock removed from resource-lock map (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:30:12.054] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock barrier open() (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:30:12.512] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - request to acquire resource lock (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:30:12.513] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - new resource lock created (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:30:12.513] [main] [trace] [Disk FileSystemProvider]: open() - storing lock for handle 109 (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:30:12.517] [main] [trace] [Disk FileSystemProvider]: close() - resource lock removed from handle-lock map 109
+[2022-11-23 18:30:12.517] [main] [trace] [Disk FileSystemProvider]: close() - disposing lock for handle 109
+[2022-11-23 18:30:12.518] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock dispose() (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:30:12.518] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock removed from resource-lock map (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:30:12.518] [main] [trace] [Disk FileSystemProvider]: createResourceLock() - resource lock barrier open() (/var/www/html/webtester/User/globalStorage/storage.json)
+[2022-11-23 18:31:48.801] [main] [trace] menubarService#updateMenubar 1
+[2022-11-23 18:33:59.384] [main] [trace] menubarService#updateMenubar 1
+[2022-11-23 18:34:06.892] [main] [trace] menubarService#updateMenubar 1
+[2022-11-23 18:34:08.750] [main] [trace] Lifecycle#window.on('close') - window ID 1
+[2022-11-23 18:34:08.750] [main] [trace] Lifecycle#unload() - window ID 1
+[2022-11-23 18:34:08.774] [main] [trace] Lifecycle#onBeforeCloseWindow.fire() - window ID 1
+[2022-11-23 18:34:08.776] [main] [trace] IPC Object URL: Removed channel vscode:5a87af58-f5ed-4c9b-aa37-95216311f3af.
+[2022-11-23 18:34:08.777] [main] [trace] Lifecycle#window.on('closed') - window ID 1
+[2022-11-23 18:34:08.777] [main] [trace] Lifecycle#onWillShutdown.fire()
+[2022-11-23 18:34:08.778] [main] [trace] IPC Object URL: Removed channel vscode:ecd61748-8eef-4253-9353-5b220331a73c.
+[2022-11-23 18:34:08.779] [main] [trace] storageMainService#onWillShutdown()
+[2022-11-23 18:34:08.779] [main] [info] Waiting for extension host with pid 27433 to exit.
+[2022-11-23 18:34:08.780] [main] [trace] SharedProcess: disposing worker (reason: 'closed') {"process":{"moduleId":"vs/platform/files/node/watcher/watcherMain","type":"fileWatcher"},"reply":{"windowId":1,"channel":"vscode:createSharedProcessWorkerMessageChannelResult","nonce":"6d35aa4a-dfcf-498b-966c-fd7b5486dc02"}}
+[2022-11-23 18:34:08.782] [main] [trace] [File Watcher (node.js)] Request to stop watching: /var/www/html/webtester/User,/var/www/html/webtester/User/settings.json
+[2022-11-23 18:34:08.782] [main] [trace] [File Watcher (node.js)] stopping file watcher on /var/www/html/webtester/User
+[2022-11-23 18:34:08.783] [main] [trace] [File Watcher (node.js)] stopping file watcher on /var/www/html/webtester/User/settings.json
+[2022-11-23 18:34:08.786] [main] [info] Extension host with pid 27433 exited with code: 0, signal: null.
+[2022-11-23 18:34:08.790] [main] [trace] Lifecycle#app.on(window-all-closed)
+[2022-11-23 18:34:08.790] [main] [trace] Lifecycle#app.on(before-quit)
+[2022-11-23 18:34:08.790] [main] [trace] Lifecycle#onBeforeShutdown.fire()
+[2022-11-23 18:34:08.791] [main] [trace] [WindowsStateHandler] onBeforeShutdown {"lastActiveWindow":{"folder":"file:///var/www/html/webtester/var/www/html/webtester","backupPath":"/var/www/html/webtester/Backups/a6b31e25bbface11b208fd1ed0ade606","uiState":{"mode":1,"x":293,"y":54,"width":1073,"height":714}},"openedWindows":[]}
+[2022-11-23 18:34:08.791] [main] [trace] Lifecycle#app.on(will-quit)
+[2022-11-23 18:34:08.804] [main] [trace] StorageMainService: closed application storage
+[2022-11-23 18:34:08.804] [main] [trace] StorageMainService: closed workspace storage (197e1c1d8c9bed540223c892ea0eabd7)
