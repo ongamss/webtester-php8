@@ -1,0 +1,14 @@
+[2020-07-21 12:06:02.953] [sharedprocess] [info] main {"machineId":"85fd6d51fbabd4306d426b542bf9e5a14b19cb22dd1183ab95c808650444f08b","windowId":2}
+[2020-07-21 12:06:42.966] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-07-21 12:31:17.744] [sharedprocess] [info] Installing extension: felixfbecker.php-intellisense
+[2020-07-21 12:31:19.437] [sharedprocess] [info] Downloaded extension: felixfbecker.php-intellisense /var/www/html/webtester/CachedExtensionVSIXs/felixfbecker.php-intellisense-2.3.14
+[2020-07-21 12:31:20.486] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.felixfbecker.php-intellisense-2.3.14: felixfbecker.php-intellisense
+[2020-07-21 12:31:20.486] [sharedprocess] [info] Renamed to /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14
+[2020-07-21 12:31:20.487] [sharedprocess] [info] Installation completed. felixfbecker.php-intellisense
+[2020-07-21 12:31:20.546] [sharedprocess] [info] Extensions installed successfully: felixfbecker.php-intellisense
+[2020-07-21 12:31:29.119] [sharedprocess] [info] Installing extension: felixfbecker.php-debug
+[2020-07-21 12:31:29.695] [sharedprocess] [info] Downloaded extension: felixfbecker.php-debug /var/www/html/webtester/CachedExtensionVSIXs/felixfbecker.php-debug-1.13.0
+[2020-07-21 12:31:30.083] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.felixfbecker.php-debug-1.13.0: felixfbecker.php-debug
+[2020-07-21 12:31:30.083] [sharedprocess] [info] Renamed to /root/.vscode/extensions/felixfbecker.php-debug-1.13.0
+[2020-07-21 12:31:30.084] [sharedprocess] [info] Installation completed. felixfbecker.php-debug
+[2020-07-21 12:31:30.129] [sharedprocess] [info] Extensions installed successfully: felixfbecker.php-debug

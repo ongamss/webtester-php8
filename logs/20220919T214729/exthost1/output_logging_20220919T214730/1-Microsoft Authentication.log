@@ -1,0 +1,5 @@
+[Info  - 00:47:30.768] Reading sessions from secret storage...
+[Info  - 00:47:30.800] Got 0 stored sessions
+[Info  - 00:47:30.815] Getting sessions for the following scopes: email offline_access openid profile
+[Trace  - 00:47:30.815] No session found with idtoken scopes... Using fallback scope list of: email offline_access openid profile
+[Info  - 00:47:30.815] Got 0 sessions for scopes: email offline_access openid profile

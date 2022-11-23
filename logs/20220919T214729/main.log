@@ -1,0 +1,4 @@
+[2022-09-19 21:47:29.383] [main] [info] update#setState idle
+[2022-09-19 21:47:30.265] [main] [info] Starting extension host with pid 10061 (fork() took 7 ms).
+[2022-09-19 21:47:41.356] [main] [info] Waiting for extension host with pid 10061 to exit.
+[2022-09-19 21:47:41.369] [main] [info] Extension host with pid 10061 exited with code: 0, signal: null.
